@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Survey Form</title>
+    </header>
+    <body>
+        <h1>Survey Form</h1>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"> <br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"> <br><br>
+            <fieldset>
+                <legend>How satisfied are you with our service?</legend>
+                <input type="radio" id="very-satisfied" name="very-satisfied">
+                <label for="very-satisfied">Very satisfied</label><br><br>
+            
+                <input type="radio" id="satisfied" name="satisfied">
+                <label for="satisfied">Satisfied</label><br><br>
+                
+                <input type="radio" id="nuetral" name="nuetral">
+                <label for="nuetral">Nuetral</label><br><br>
+                
+                <input type="radio" id="dissatisfied" name="Dissatisfied">
+                <label for="dissatisfied">Dissatisfied</label><br><br>
+                
+                <input type="radio" id="Very-Dissatisfied" name="Dissatisfied">
+                <label for="very-disssatisfied">Very Dissatisfied</label>
+            </fieldset><br><br>
+            
+            <fieldset>
+                <legend>What features do you value most?</legend>
+                <input type="radio" id="ease-of-use" name="ease-of-use">
+                <label for="ease-of-use">Ease of Use</label><br><br>
+                
+                <input type="radio" id="design" name="design">
+                <label for="design">Design</label><br><br>
+                
+                <input type="radio" id="customer-support" name="customer-support">
+                <label for="customer-support">Customer Support</label>
+            </fieldset><br><br>
+            
+            <label for="profession">What best describes you?</label>
+            <select id="profession" name="profession">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <label for="message">Additional Feedback:</label><br>
+            <textarea id="message" name="message" rows="10" cols="50" placeholder="Enter your feedback here..."></textarea><br><br>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
