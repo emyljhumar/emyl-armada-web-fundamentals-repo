@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", serif;
+    background: rgb(238, 238, 238);
+}
+
+.container {
+    background: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 5px;
+    box-shadow: 1px 1px 5px 1px #888888;
+}
+
+h1, .add-task {
+    background: rgb(24, 133, 236);
+    color: whitesmoke;
+}
+
+h1 {
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.input-container {
+    margin: 0 auto;
+    display: flex
+}
+
+.enter-task {
+    padding: 7px 140px 7px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.add-task {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 20px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.learn-btn, .watch-btn {
+    background: rgb(207, 240, 251);
+}
+
+.complete-btn {
+    background: rgb(179, 238, 179);
+    text-decoration: line-through;
+}
+
+.learn-btn, .watch-btn, .complete-btn {
+    border: 1px solid rgb(185, 204, 181);
+}
