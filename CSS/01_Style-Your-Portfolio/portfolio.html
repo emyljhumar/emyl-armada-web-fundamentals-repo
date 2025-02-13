@@ -58,30 +58,32 @@
             <section id="contact-section">
                 <h2>Contact Me</h2>
                 <form>
-                    <label for="name">Full Name:</label>
-                    <input type="text" id="name" name="name"> <br><br>
-            
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email"> <br><br>
+                    <div class="name-email">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name"> 
+                        
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
                     <fieldset>
-                        <legend>How did you hear about this Portfolio?</legend>
-
+                        <legend>How did you hear about this Portfolio?</legend><br>
+                            
                         <input type="radio" id="friend" name="friend">
-                        <label for="friend">Friend</label><br><br>
-                    
+                        <label for="friend">Friend</label> <br><br>
+                        
                         <input type="radio" id="social-media" name="social-media">
-                        <label for="social-media">Social Media</label><br><br>
-                        
+                        <label for="social-media">Social Media</label> <br><br>
+                            
                         <input type="radio" id="search-engine" name="search-engine">
-                        <label for="search-engine">Search Engine</label><br><br>
-                        
+                        <label for="search-engine">Search Engine</label> <br><br>
+                            
                         <input type="radio" id="other" name="other">
-                        <label for="other">Other</label><br><br>
-                        
-                    </fieldset><br><br>
+                        <label for="other">Other</label> <br><br>
+                    </fieldset>
                     
                     <fieldset>
-                        <legend>Skills/Interests</legend>
+                        <legend>Skills/Interests</legend><br>
+
                         <input type="checkbox" id="web-dev" name="web-dev">
                         <label for="web-dev">Web Development</label><br><br>
                         
@@ -89,14 +91,14 @@
                         <label for="video-edit">Video Editing</label><br><br>
                         
                         <input type="checkbox" id="graphic-design" name="graphic-design">
-                        <label for="graphic-design">Graphic Design</label>
-                    </fieldset><br><br>
+                        <label for="graphic-design">Graphic Design</label><br><br>
+                    </fieldset>
                     
-                    <label for="message">Comments or Messages:</label><br>
-                    <textarea id="message" name="message" rows="10" cols="50" placeholder="Enter your message here..."></textarea><br>
-
-                    <button type="submit">Submit</button>
-
+                    <label for="message">Comments or Messages:</label>
+                    <textarea id="message" name="message" rows="10" cols="50" placeholder="Enter your message here..."></textarea>
+                    <div class="btn-container">
+                        <button type="submit">Submit</button>
+                    </div>
                 </form>
             </section>
         </main>

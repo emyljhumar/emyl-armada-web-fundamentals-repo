@@ -48,6 +48,22 @@ body {
     border: 5px solid #857F74;
     border-radius: 5px;
   }
+
+  /* contact me section */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .name-email {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+    gap: 5px;
+  }
   
   table {
     border-collapse: collapse;
@@ -72,8 +88,9 @@ body {
     border-radius: 5px;
     color: whitesmoke;
     padding: 5px 20px;
-    margin-top: 5px;
+    margin-bottom: 20px;
   }
+  
   /* footer section */
   
   footer {
