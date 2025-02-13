@@ -10,13 +10,13 @@ body {
   header {
     background-color: #ffcc00;
     height: 150px;
+    margin-bottom: 20px;
   }
 
   main {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    padding: 20px 0;
+    gap: 25px;
   }
   
   aside {
@@ -32,11 +32,7 @@ body {
   }
   
   footer {
+    margin-top: 20px;
     background-color: #e74c3c;
     height: 100px;
-  }
-
-  .flex-container {
-    border: none;
-    padding: 15px 20px;
   }
