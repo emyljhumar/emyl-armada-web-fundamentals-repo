@@ -56,7 +56,7 @@ body {
     flex-direction: column;
     gap: 10px;
   }
-
+ 
   .name-email {
     display: flex;
     flex-direction: column;
