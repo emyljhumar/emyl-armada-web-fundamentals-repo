@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: "Inter", serif;
+    color: whitesmoke;
+    background: rgb(32, 32, 32);
+}
+
+/* navigation and search bar */
+header {
+    background: #6f2bf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+nav {
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    left: 20px;
+}
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    width: 250px;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #6425d8;
+}
+
+.search-bar::placeholder {
+    color: rgb(172, 168, 168);
+}
+
+/* 1st section */
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 420px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+.bootstrap-logo {
+    width: 130px;
+    height: 100px;
+}
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 30px 0 0 0;
+}
+h1 span {
+    display: block;
+}
+.first-section p {
+    line-height: 1.5;
+}
+.npm-read-container {
+    display: flex;
+    gap: 10px;
+}
+.npm-text {
+    background: rgb(62, 59, 59);
+    border: 1px solid rgb(90, 89, 89);
+    border-radius: 5px;
+    padding: 12px 40px 12px 15px;
+}
+.npm-text::placeholder {
+    color: rgb(212, 211, 211);
+    font-size: 12px;
+}
+.npm-read-container a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+    background: #6f2bf2;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+li {
+    font-size: 11px;
+}
+li a {
+    color: rgb(92, 91, 91);
+
+}
+.version {
+    display: inline-block;
+    list-style-type: none;
+}
+.version a {
+    text-decoration: none;
+    color: rgb(179, 177, 177);
+}
+/* 2nd section */
+.second-section {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.second-section img {
+    width: 100px;
+    height: 100px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+}
+.second-section p {
+    margin: 20px 0 5px 0;
+    
+}
+.second-section p a, 
+.read-installation-docs {
+    color: lightblue;
+}
+

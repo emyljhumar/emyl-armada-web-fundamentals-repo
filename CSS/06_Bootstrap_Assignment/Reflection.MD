@@ -1,0 +1,1 @@
+This assignment took me about 2 hours to complete and I have a struggle in the navigation bar and I overcame it through using stackoveflow.

@@ -23,7 +23,7 @@ body {
     justify-content: space-evenly;
     gap: 20px;
     background: lightgray;
-    padding: 10px 1%;
+    padding: 10px;
   }
 
   .box-left {
