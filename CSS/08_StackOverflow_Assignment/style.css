@@ -1,0 +1,275 @@
+body { 
+    margin: 0;
+    background: #FFF;
+    font-family: "Roboto", serif;
+    width: 100vw;
+    height: 100vh;
+    color: #636B74;
+}
+
+/* nav bar */
+header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-top: 3px solid #d5763f;
+    border-bottom: 1px solid #c9c9c9;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #FFF;
+}
+
+.stackoverflow-logo {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 6px 12px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-bar {
+    width: 679.73px;
+    height: 32.59px;
+    padding: 8px 9px 8px 32px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+a {
+    border-radius: 5px;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+nav ul li, a {
+    font-size: 13px;
+}
+
+.login-btn {
+    color: #1b75d0;
+    border: 1px solid #1b75d0;
+}
+
+.signup-btn {
+    background: #1b75d0;
+    border: 1px solid #1b75d0;
+    color:#FFF;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* side bar */
+.side-bar {
+    margin: 24px 0 0 0;
+}
+
+.side-bar ul {
+    padding: 5px;
+}
+
+.side-bar ul li {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 15px;
+    height: 23px;
+}
+
+.side-bar ul li a {
+    color: #636B74;
+}
+
+.side-bar ul li:hover, nav ul li:hover {
+    background: #c9c9c9;
+    border-radius: 5px;
+    color: #636B74;
+}
+
+/* main */
+main {
+    /* border: 1px solid black; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hero {
+    font-family: "Roboto Slab", serif;
+    padding: 20px 25px 80px 25px;
+    width: 1050px;
+    background: #f9fafa;
+    color: #3a4044;
+    position: relative;
+}
+
+.hero-text-container {
+    margin: 40px 0 0 25px;
+}
+
+hero h1 {
+    margin: 0;
+}
+
+#h1-bg {
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+    color: #FFF;
+    background: url("Stack Overflow/background-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+span {
+    display: block;
+}
+
+hero p {
+    font-family: "Roboto", serif;
+    margin-bottom: 30px;
+}
+
+.hyper-link-blue {
+    color: #6aafd7;
+}
+
+.hyper-link-underline {
+    text-decoration: underline;
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    height: 280px;
+}
+
+/* services section */
+.services-section {
+    margin-top: 20px;
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overflow-teams-container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.overflow-teams-container p, 
+.overflow-ai-container p {
+    margin-bottom: 30px;
+}
+
+.teams-logo {
+    width: 150px;
+    height: 35px;
+}
+
+.explore-teams-btn {
+    background: #1b75d0;
+    color:#FFF;
+}
+
+.home-teams {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 180px;
+}
+
+.overflow-ai-container {
+    position: relative;
+    background: #3a4044;
+    margin-top: 30px;
+    color: #FFF;
+}
+
+.super-charge-btn {
+    background: #e7700d;
+    color:#FFF;
+}
+
+.home-ai-logo {
+    width: 150px;
+    height: 30px;
+}
+
+.services-divider {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.ads-api-container {
+    width: 480px;
+    margin-top: 10px;
+}
+
+.ads-api-container p {
+    margin-bottom: 30px;
+}
+
+.work-here-section {
+    width: 1050px;
+    margin: 40px 0;
+}
+
+.work-here-container {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.work-here-container p {
+    margin-bottom: 30px;
+}
+
+.careers-img {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    height: 280px;
+}
+
+.overflow-ai-container,
+.ads-api-container,
+.work-here-container,
+.overflow-teams-container {
+    border: 1px solid #c9c9c9;
+    border-radius: 6px;
+    padding: 40px;
+}
+
+.work-here-section,
+.work-here-container {
+    display: block;
+}
