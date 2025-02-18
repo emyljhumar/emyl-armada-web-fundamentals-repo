@@ -76,6 +76,7 @@ header input {
     background: none;
     border: 1px solid grey;
     border-radius: 3px;
+    color: whitesmoke;
 }
 
 header input::placeholder {
@@ -156,6 +157,7 @@ footer input {
     background: none;
     border: 1px solid grey;
     border-radius: 3px;
+    color: whitesmoke;
 }
 
 footer input::placeholder {
