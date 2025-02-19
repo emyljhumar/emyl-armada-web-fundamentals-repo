@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    background: #0d1116;
+    color: #9198A1;
+    font-family: "Roboto", sans-serif;
+}
+
+/* style & typography */
+a {
+    color: #4392f8;
+    text-decoration: none;
+}
+
+/* header */
+header {
+    height: 50px;
+    background: #25292f;
+    padding: 6px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.github-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-header a, button {
+    padding: 8px;
+}
+
+.nav-header a {
+    display: inline-block;
+}
+
+button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button img {
+    width: 16px;
+    height: 16px;
+}
+
+.search-bar {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    background: none;
+    border: 1px solid #919191;
+    border-radius: 5px;
+    width: 320px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search-bar:hover {
+    cursor: pointer;
+}
+
+.search-bar span {
+    margin-left: 10px;
+    color: #c6c8c8;
+}
+
+.syntax-icon {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.sign-in-btn, 
+.sign-up-btn,
+.nav-header a, 
+button {
+    color: #ecebeb;
+    font-size: 13px;
+}
+
+.sign-up-btn {
+    border: 1px solid #ecebeb;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* nav main */
+.nav-main {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav-main a {
+    font-size: 14px;
+    margin-right: 24px;
+    padding: 16px 0;
+    color: #9198A1;
+}
+
+.nav-main a:active {
+    border-bottom: 1px solid #1079f1;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.nav-main a:hover {
+    border-bottom: 1px solid #9198A1;
+    color: #FFF;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 7%;
+}
+
+section {
+    width: 640px;
+    margin: 0;
+    padding: 24px 16px;
+}
+
+.section-header-txt {
+    font-size: 20px;
+    padding-left: 24px;
+}
+
+.main-article {
+    width: 606px;
+    border: 1px solid #2e343d;
+    border-radius: 5px;
+    margin: 24px;
+    z-index: 1;
+}
+
+.game-off-img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 606px;
+}
+
+.main-article-wrapper {
+    padding: 16px;
+}
+
+.main-article-wrapper p, .main-article-link {
+    font-size: 14px;
+}
+
+.main-article-desc {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.main-article-desc img {
+    width: 16px;
+    height: 16px;
+}
+
+.main-article-desc h2 {
+    font-size: 12px;
+}
+
+.main-article-flex {
+    display: flex;
+}
+
+.main-article-img-placeholder {
+    background: #111d2e;
+    padding: 40px;
+    margin: 0 15px 0 0;
+    border-radius: 5px;
+}
+
+/* aside */
+aside {
+    width: 288px;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+.aside-title {
+    display: flex;
+    background: #151b23;
+    padding: 16px;
+    border: 1px solid #2e343d;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.aside-title img {
+    margin-right: 5px;
+}
+
+.aside-title a {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.aside-profile {
+    width: 51.5px;
+    height: 51.5px;
+    border-radius: 50%;
+}
+
+aside article {
+    padding: 16px;
+    display: flex;
+    border: 1px solid #2e343d;
+}
+
+.aside-article-name {
+    padding: 0 8px;
+}
+
+.aside-article-name span {
+    display: block;
+}
+
+.aside-article-name img {
+    width: 13px;
+    height: 15px;
+}
+
+.aside-repo-wrapper {
+    display: flex;
+    margin-top: 10px;
+}
+
+.repo-name {
+    font-size: 12px;
+    color: #9198A1;
+}
+
+.aside-footer {
+    display: flex;
+    background: #151b23;
+    padding: 16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #2e343d;
+    border-top: none;
+}
+.aside-more-devs {
+    font-size: 12px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-logo img {
+    width: 22px;
+    height: 22px;
+}
+
+.footer-logo p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list li a {
+    color: #9198A1;
+    font-size: 12px;
+}
+
+
+
+
+
+
