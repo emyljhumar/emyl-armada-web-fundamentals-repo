@@ -84,26 +84,26 @@ nav ul li, a {
 }
 
 /* side bar */
-.side-bar {
+aside {
     margin: 24px 0 0 0;
 }
 
-.side-bar ul {
+aside ul {
     padding: 5px;
 }
 
-.side-bar ul li {
+aside ul li {
     display: flex;
     list-style-type: none;
     margin-bottom: 15px;
     height: 23px;
 }
 
-.side-bar ul li a {
+aside ul li a {
     color: #636B74;
 }
 
-.side-bar ul li:hover, nav ul li:hover {
+aside ul li:hover, nav ul li:hover {
     background: #c9c9c9;
     border-radius: 5px;
     color: #636B74;
@@ -220,6 +220,11 @@ hero p {
 .home-ai-logo {
     width: 150px;
     height: 30px;
+}
+
+.overflow-ai-logo {
+    width: 145px;
+    height: 45px;
 }
 
 .services-divider {
