@@ -28,7 +28,8 @@ header {
 
 .nav-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    padding: 0;
 }
 
 .nav-header a, button {
@@ -37,23 +38,47 @@ header {
 
 .nav-header a {
     display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
-button {
-    background: none;
-    border: none;
+.nav-header li {
+    list-style-type: none;
     display: flex;
     align-items: center;
     font-family: inherit;
 }
 
-button:hover {
+form {
+    position: relative;
+    margin: 0 0 0 auto;
+}
+
+form:hover {
     cursor: pointer;
 }
 
-button img {
+form img {
     width: 16px;
     height: 16px;
+    
+}
+
+form input {
+    color: #c6c8c8;
+    padding-left: 25px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+
+.syntax-icon {
+    position: absolute;
+    top: 6px;
+    right: 5px;
 }
 
 .search-bar {
@@ -65,22 +90,16 @@ button img {
     border-radius: 5px;
     width: 320px;
     height: 30px;
-    margin-right: 5px;
 }
 
 .search-bar:hover {
     cursor: pointer;
 }
 
-.search-bar span {
-    margin-left: 10px;
+.search-bar::placeholder {
     color: #c6c8c8;
 }
 
-.syntax-icon {
-    display: inline-block;
-    margin-left: auto;
-}
 
 .sign-in-btn, 
 .sign-up-btn,
