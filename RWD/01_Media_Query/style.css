@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container {
+    margin: auto 0;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid rgb(121, 118, 118);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: gainsboro;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    margin: 0 auto;
+    background: rgb(162, 162, 162);
+    border: 2px solid rgb(121, 118, 118);
+    border-radius: 5px;
+    padding: 20px 10px 0 10px;
+}
+
+@media (max-width: 1336px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-content: center;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 843px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-content: start;
+        margin: 20px;
+    }
+}
