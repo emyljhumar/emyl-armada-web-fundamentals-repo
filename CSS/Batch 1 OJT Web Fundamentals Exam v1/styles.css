@@ -1,0 +1,288 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: "Work Sans", serif;
+    color: #3A2A2F;
+}
+
+.header-container,
+nav ul,
+section {
+    width: 1480px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* header */
+header {
+    height: 90px;
+    background: #002056;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    margin: 0 auto;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-logo {
+    width: 170px;
+    height: 50px;
+}
+
+.header-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.header-container ul li {
+    padding: 0 35px;
+    height: 50px;
+    align-items: center;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    width: 670px;
+    height: 44px;
+    padding: 0 1px 0 15px;
+}
+
+form button {
+    width: 50px;
+    height: 43px;
+    background: #F17D21;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.logIn-signUp-btn {
+    width: 138px;
+}
+
+.logIn-signUp-btn span {
+    display:block;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.logIn-signUp-btn, .your-cart-btn {
+    border-right: 1px solid grey;
+}
+
+.your-cart-btn, .contact-btn {
+    display: flex;
+}
+
+.your-cart-btn, .contact-btn {
+    gap: 15px;
+    width: 120px;
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    gap: 30px;  
+}
+
+nav ul li a {
+    color: #3A2A2F;
+    padding: 0 20px;
+}
+
+nav ul li select {
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.main-img-banner {
+    width: 100vw;
+    height: 1000px;
+    background: url('images//Banner-Web-LS-samsung_eab0c4ac-3c03-4fe8-a447-21a3c5f6ce4f_1800x.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.categories-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.section-cotainer h2 {
+    font-weight: 300;
+}
+
+.section-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    background: #FFF;
+}
+
+.section-list h4 {
+    color: #3A2A2F;
+    text-align: center;
+    font-weight: 600;
+}
+
+.categories-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.exclusive-container {
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+}
+
+.exclusive-img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 30px;;
+}
+
+.exclusive-container a {
+    color: #3A2A2F;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exclusive-item-name {
+    font-weight: 600;
+}
+
+.exclusive-prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exclusive-prices h3, .exclusive-prices h4 {
+    margin: 0;
+}
+
+.exclusive-prices h3 {
+    font-weight: 500;
+}
+
+.exclusive-prices h4 {
+    text-align: start;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+    text-decoration: line-through;
+}
+
+.price-container {
+    display: flex;
+    gap: 10px;
+}
+
+.saved-price {
+    color: red;
+    font-weight: 500;
+}
+
+/* services section */
+.services-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.services-section li {
+    display: flex;
+    align-items: center;
+    align-content: start;
+    gap: 15px;
+}
+
+.services-section li img {
+    width: 30px;
+    height: 30px;
+}
+
+.services-desc h2, .services-desc p {
+    margin: 0;
+}
+
+.services-desc h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.services-desc p {
+    width: 327px;
+    font-weight: 400;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background: #3A2A2F;
+    color: #FFF;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer p {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+}

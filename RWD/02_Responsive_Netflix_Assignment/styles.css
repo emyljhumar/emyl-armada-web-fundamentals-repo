@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 560px;
+    position: relative;
+    background:  linear-gradient(rgba(5, 5, 5, 0.7), rgba(0, 0, 0, 0.7)), url(netflix_image_asset/PH-en-20250113-TRIFECTA-perspective_8171c01e-c334-403b-bfa2-133bcc962aaf_small.jpg);
+    background-size: cover;
+    box-shadow: inset 0  0em 5em 1em #000;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.netflix-logo {
+    width: 100px;
+}
+
+#language, .sign-in-btn {
+    border-radius: 4px;
+}
+
+#language {
+    background: none;
+    font-family: inherit;
+    color: whitesmoke;
+    padding: 4px 12px 4px 15px;
+}
+
+.sign-in-btn {
+    text-decoration: none;
+    color: whitesmoke;
+    background: rgb(223, 8, 8);
+    padding: 5px 15px;
+}
+
+/* main section */
+header {
+    margin: 62px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+h1 span {
+    display: block;
+}
+
+h4, header p, header a {
+    font-size: 13px;
+}
+
+h4, header p {
+    margin: 0 0 16px 0;
+}
+
+h4 {
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+header input {
+    padding: 12px 30px 12px 18px;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+header input::placeholder {
+    color: rgb(197, 195, 195);
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+    background: rgb(223, 8, 8);
+    padding: 13px 20px;
+    border-radius: 3px;
+}
+
+/* section */
+section {
+    width: 100vw;
+    /* height: 100vh; */
+    background: black;
+    margin: 0;
+}
+
+.section-container {
+    width: 1200px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h3 {
+    margin: 30px auto auto 0px;
+    text-align: start;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.movie-list li img {
+    border-radius: 5px;
+}
+
+.reasons-to-join {
+    display: flex;
+    gap: 20px;
+}
+
+.reason-container {
+    padding: 0 20px;
+    margin-top: 20px;
+    width: 240px;
+    height: 300px;
+    background-color: #192147;
+    border-radius: 10px;
+    text-align: start;
+}
+
+footer {
+    background: black;
+    padding: 50px;
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+footer input {
+    padding: 13px 500px 13px 18px;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+footer input::placeholder {
+    color: rgb(197, 195, 195);
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    background: rgb(223, 8, 8);
+    padding: 12px 20px;
+    border-radius: 3px;
+}
+
+/* Phone screens */
+
+  
+  /* Tablet screens */
+@media (min-width: 700px) and (max-width: 1400px) {
+    .section-container, img {
+        width: 80%;
+    }
+
+    .movie-list {
+        gap: 20px;
+    }
+
+    .reasons-to-join {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .reason-container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .reason-container p, .reason-container h3 {
+        padding-left: 20px;
+    }
+
+    .reason-container p {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 904px) {
+    footer input {
+        padding: 13px 50% 13px 18px;
+    }
+}
+  
